@@ -146,7 +146,7 @@ margin-right: 2rem ;
     }
     .hero-links {
         bottom: 35%;
-        left: 32%;
+        left: 20%;
        
         
     }
@@ -197,47 +197,7 @@ margin-right: 2rem ;
 
 
 
-/* 
-h3 {
-    margin: 0 2rem;
-}
-
-section {
-    display: flex;
-    padding: 5% 10%;
-}
 
 
 
 
-
-.hero-image {
-    width: 100%;
-}
-
-
-.invitation {
-    width: 100%;
-    
-
-}
-
-
-.card-links {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 30rem;
-    font-size: 1.6rem;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: absolute;
-    background-color: blue;
-    
-}
-
-
-.manushka-img {
-    width: 50%;
-} */
