@@ -22,8 +22,8 @@ body {
 
 }
 .homebody {
-    overflow: hidden;
-    -webkit-overflow:hidden;
+    overflow-y: hidden;
+    -webkit-overflow-y:hidden;
     background-color: black;
 }
 
