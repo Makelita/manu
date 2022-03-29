@@ -1,0 +1,243 @@
+
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+html {
+    font-size: 62.5% ;
+}
+
+body {
+    max-width: 144rem;
+    min-width: 32rem;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.homebody {
+    overflow: hidden;
+    -webkit-overflow:hidden;
+    background-color: black;
+}
+
+.hero {
+    width: 90vw;
+    height: 90%;
+    min-height: 90vh;
+    background-image: url("images/heroimage.jpg");
+    background-position: center;
+    background-size:cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 2rem;
+
+}
+
+
+
+
+.hero-links {
+    font-size: 1.5rem ;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30%;
+   
+    
+}
+
+.hero-links a {
+    
+    text-decoration: none;
+    color: white;
+
+}
+
+.hero-links a:hover {
+    color: #F596B9 ;
+}
+
+
+.hero-links h3 {
+margin-right: 2rem ;
+}
+
+#infobody {
+    max-width: 144rem;
+    background-color: rgb(180, 122, 122);
+    padding: .5rem;
+    flex-direction: column;
+    position: relative;
+    color:white ;
+    
+
+}
+
+.navbar-info {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    
+}
+
+.navbar-info img {
+    width: 4rem;
+    
+}
+
+
+
+.infocontent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 20rem;
+}
+
+
+.Manusimg {
+    width: 27%;
+    min-width: 32rem;
+    border: .2rem solid white;
+    
+   
+}
+
+
+.infotext h2 {
+    
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.infotext P {
+    width: 35rem;
+    font-size: 1.8rem;
+}
+
+
+.addresstitle {
+    padding: 3rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+
+
+@media (orientation: portrait) {
+    .hero {
+        background-image: url("images/portrait.png");
+    
+    }
+    .hero-links {
+        bottom: 35%;
+        left: 32%;
+       
+        
+    }
+
+    
+}
+
+
+
+
+@media (max-width:1086px) {
+
+    .infocontent {
+       margin-top: 8rem;
+    }
+
+
+    .address-container {
+        text-align: center;
+    }
+    .infotext{
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:90.8rem) {
+    .hero {
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+
+    }
+}
+
+
+
+
+
+
+
+
+/* 
+h3 {
+    margin: 0 2rem;
+}
+
+section {
+    display: flex;
+    padding: 5% 10%;
+}
+
+
+
+
+
+.hero-image {
+    width: 100%;
+}
+
+
+.invitation {
+    width: 100%;
+    
+
+}
+
+
+.card-links {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 30rem;
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    background-color: blue;
+    
+}
+
+
+.manushka-img {
+    width: 50%;
+} */
